@@ -15,5 +15,6 @@ class Song
   
   def genres
     @@genres << self
+  end
     
 end
