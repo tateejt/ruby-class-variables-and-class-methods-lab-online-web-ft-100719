@@ -12,5 +12,9 @@ class Song
     @@count += 1
     @@genres << self
   end
+  
+  def genres
+    @@genres.uniq
+  end
     
 end
