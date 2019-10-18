@@ -13,7 +13,7 @@ class Song
     @@genres << self
   end
   
-  def genres
+  def self.genres
     @@genres.uniq
   end
     
