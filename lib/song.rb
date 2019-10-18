@@ -28,7 +28,7 @@ class Song
   end
   
   def self.genre_count
-    @@genres.inject(Hash.new(0)) { |total
+    @@genres.inject(Hash.new(0)) { |total, i|
   end
     
 end
