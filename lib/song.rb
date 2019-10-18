@@ -28,7 +28,7 @@ class Song
   end
   
   def self.genre_count
-    Hash.new = 
+    @@genres.inject
   end
     
 end
