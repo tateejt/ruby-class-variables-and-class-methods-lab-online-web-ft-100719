@@ -12,9 +12,5 @@ class Song
     @@count += 1
     @@genres << self
   end
-  
-  def self.genres
-    
-  end
     
 end
